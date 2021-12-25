@@ -1,3 +1,26 @@
+:root {
+  --heading-color: rgb(80, 80, 80);
+  --website-fond: "Courier New", Courier, monospace;
+}
+
+h1,
+h2,
+p {
+  font-family: var(--website-fond);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: var(--heading-color);
+}
+
+h1.name {
+  font-size: 50px;
+  color: black;
+  text-shadow: 5px 10px 10px rgb(224, 211, 211);
+}
+
 a#contact {
   color: blue;
   text-decoration: none;
