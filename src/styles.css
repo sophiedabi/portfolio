@@ -1,0 +1,13 @@
+a#contact {
+  color: blue;
+  text-decoration: none;
+}
+
+a#contact:hover {
+  text-decoration: underline;
+}
+
+a#contact:visited {
+  color: blue;
+  text-decoration: none;
+}
