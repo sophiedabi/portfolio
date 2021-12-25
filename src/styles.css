@@ -1,6 +1,7 @@
 :root {
   --heading-color: rgb(80, 80, 80);
   --website-fond: "Courier New", Courier, monospace;
+  --primary-color: rgb(204, 247, 244);
 }
 
 h1,
@@ -23,7 +24,7 @@ h1.name {
 .col {
   margin: 20px;
   display: flex;
-  background-color: rgb(204, 247, 244);
+  background-color: var(--primary-color);
   opacity: 90%;
   border-radius: 6px;
 }
@@ -43,7 +44,7 @@ div#button {
   padding: 3px 10px;
 }
 #contact:hover {
-  background-color: rgb(204, 247, 244);
+  background-color: var(--primary-color);
   transition: 250ms;
 }
 
