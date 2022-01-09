@@ -1,54 +1,117 @@
 :root {
-  --heading-color: rgb(80, 80, 80);
-  --website-fond: "Courier New", Courier, monospace;
-  --primary-color: rgb(204, 247, 244);
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
 }
 
 h1,
 h2,
-p {
-  font-family: var(--website-fond);
-}
-
-h1,
-h2 {
+h3 {
   text-align: center;
-  color: var(--heading-color);
+  margin: 0 auto;
 }
 
-h1.name {
-  font-size: 50px;
-  color: black;
-  text-shadow: 5px 10px 10px rgb(224, 211, 211);
+h1 {
+  font-size: 90px;
 }
-.col {
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+p {
+  text-align: center;
+  padding: 8px;
+  line-height: 1.5;
+}
+
+.btn.project {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.short-descr {
+  margin-top: 70px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
   margin: 20px;
-  display: flex;
-  background-color: var(--primary-color);
-  opacity: 90%;
-  border-radius: 6px;
-}
-div#button {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px;
-  flex: 1;
-}
-
-#contact {
-  text-decoration: none;
   border-radius: 4px;
-  background-color: rgb(119, 223, 216);
-  box-shadow: 5px 10px 10px rgba(160, 165, 164, 0.932);
-  border: none;
-  padding: 3px 10px;
-}
-#contact:hover {
-  background-color: var(--primary-color);
-  transition: 250ms;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-#contact:visited {
-  color: darkgrey;
+.contact-link {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link:hover {
+  background-color: #5b54e2;
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.about-paragraphs {
+  text-align: center;
+  display: flex;
+  margin: 30px 0;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
   text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.container.descr {
+  border: 1px solid rgb(226, 225, 225);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
 }
