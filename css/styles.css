@@ -82,6 +82,10 @@ p {
   text-transform: capitalize;
 }
 
+.sources {
+  margin-top: 50px;
+}
+
 .contact-link {
   background-color: var(--primary-color);
   color: white;
