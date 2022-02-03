@@ -21,6 +21,12 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  background: linear-gradient(110deg, #fdfcfb 70%, #e2d1c3 2%);
+}
+
+.navbar {
+  color: #eee7e2;
+  opacity: 90%;
 }
 
 h1,
@@ -115,25 +121,13 @@ p {
   margin-top: 50px;
 }
 
-.contact-link {
-  background-color: var(--primary-color);
-  color: white;
-  box-shadow: var(--shadow);
-}
-
-.contact-link:hover {
-  background-color: rgb(38, 116, 68);
-  color: white;
-  transition-duration: 200ms;
-}
-
-.about-link {
+.home {
   color: var(--primary-color);
   box-shadow: var(--shadow);
   border: 1px solid var(--primary-color);
 }
 
-.about-link:hover {
+.home:hover {
   background-color: rgb(38, 116, 68);
   color: white;
   transition-duration: 300ms;
