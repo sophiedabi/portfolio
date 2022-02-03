@@ -58,7 +58,7 @@ p {
   text-align: center;
 }
 
-.btn {
+.btn.home {
   min-width: 120px;
   max-width: 120px;
 }
@@ -91,13 +91,10 @@ p {
   font-size: 18px;
   text-decoration: none;
   color: var(--primary-color);
-  font-family: "Courier New", Courier, monospace;
 }
 
 .email-link a:hover {
-  text-decoration: underline;
   color: rgb(61, 61, 61);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   transition-duration: 250ms;
 }
 
@@ -163,4 +160,8 @@ p {
   border: 1px solid rgb(226, 225, 225);
   border-radius: 4px;
   box-shadow: var(--shadow);
+}
+
+p.small.sources a {
+  color: var(--primary-color);
 }
