@@ -187,6 +187,11 @@ div.align-items-center {
 
 p.small {
   font-size: 10px;
+  color: #a7a7a8;
+}
+
+p.small.sources {
+  color: var(--hover-color);
 }
 
 p.small.sources a {
